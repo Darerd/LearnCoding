@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %} {{ news_type }} News {% endblock %}
+{% block content %}
+    {{ news_type }} News lists:
+    <ul>
+        {% for date,title in news_titles %}
+            { % if forloop.counter[2] % }
+                <li><font color='red'>{{ title }}</font> ({{ date }}) </li>
+            { % endif % }
+            <li>{{ title }} ({{ date }}) </li>
+        { % empty %}
+            Sorry:No News
+        {% endfor %}
+    </ul>
+{% endblock %}
