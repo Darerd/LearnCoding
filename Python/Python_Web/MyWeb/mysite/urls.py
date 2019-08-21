@@ -19,8 +19,8 @@ from Darer_site import views as siteviews
 # 从项目的包中导入视图模块
 
 urlpatterns = [
-    path('filter/',siteviews.filter_test),
-    path('news_list/<str:news_type>',siteviews.news_list),
+    #path('filter/',siteviews.filter_test),
+    #path('news_list/<str:news_type>',siteviews.news_list),
     path('', siteviews.index),
     # 来自服务器的请求为网站跟目录时，由视图中的index函数进行处理。
     path('admin/', admin.site.urls),

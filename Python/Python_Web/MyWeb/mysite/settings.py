@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Darer_site.apps.DarerSiteConfig' # 添加此项
+    # 'DarerSite'  # 也可以直接添加应用名称
 ]
 
 MIDDLEWARE = [
@@ -73,10 +75,10 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+DATABASES = {                   # 数据库配置
+    'default': {                # 默认数据库
+        'ENGINE': 'django.db.backends.sqlite3',         # 数据库引擎设置
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),   # 数据库的路径与名称
     }
 }
 
