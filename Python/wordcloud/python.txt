@@ -1,0 +1,9 @@
+Python的創始人為吉多·范羅蘇姆。1989年的聖誕節期間，吉多·范羅蘇姆為了在阿姆斯特丹打發時間，決心開發一個新的指令碼解釋程式，作為ABC語言的一種繼承。之所以選中Python作為程式的名字，是因為他是BBC電視劇——蒙提·派森的飛行馬戲團的愛好者。ABC是由吉多參加設計的一種教學語言。就吉多本人看來，ABC這種語言非常優美和強大，是專門為非專業程式設計師設計的。但是ABC語言並沒有成功，究其原因，吉多認為是非開放造成的。吉多決心在Python中避免這一錯誤，並取得了非常好的效果，完美結合了C和其他一些語言。[5]
+
+就這樣，Python在吉多手中誕生了。實際上，第一個實現是在Mac電腦上。可以說，Python是從ABC發展起來，主要受到了Modula-3（另一種相當優美且強大的語言，為小型團體所設計的）的影響。並且結合了Unix shell和C的習慣。
+
+目前吉多仍然是Python的主要開發者，決定整個Python語言的發展方向。Python社群經常稱呼他是終身仁慈獨裁者（BDFL）。
+
+Python 2.0於2000年10月16日發佈，增加了實現完整的垃圾回收，並且支援Unicode。同時，整個開發過程更加透明，社群對開發進度的影響逐漸擴大。
+
+Python 3.0於2008年12月3日發佈，此版不完全相容之前的Python原始碼。不過，很多新特性後來也被移植到舊的Python 2.6/2.7版本。
